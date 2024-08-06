@@ -1,4 +1,4 @@
-\begin{verbatim}‎
+
 ‎A<-read.csv("C:\\Users\\Admin\\Desktop\\sample.ver 3.csv")‎
 ‎z<-vector(mode="numeric")‎
 ‎for (i in 1:70){‎
@@ -62,5 +62,4 @@
 ‎C<-as.matrix(C),D<-t(B),str(D)‎
 ‎D<-D%*%B,D<-solve(D),bi=2*D%*%C‎
 ‎MS=(B-bi)^2,k=apply(MS,2,sum)‎
-‎\end{verbatim}‎
-‎\end{latin}‎
+‎
